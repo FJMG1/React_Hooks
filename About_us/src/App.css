@@ -16,7 +16,14 @@
   display:flex;
   flex-direction: row;
 }
-
+.premium{
+  display:flex;
+  flex-direction: row;
+  background-color: gold;
+}
+.oculto{
+  display: none;
+}
 .icon2{
       display: inline-block;
       background-color: #007BFF; /* azul */
