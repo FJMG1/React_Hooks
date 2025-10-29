@@ -18,8 +18,8 @@ function Contador(){
     function incrementar(){
         setContador(contador+1); //Aumentamos el contador
     }
-    function reducir(){
-        setContador(contador-1); //Recude el contador
+    function reset(){
+        setContador(0); //Reset el contador
     }
 
 return(
@@ -27,7 +27,7 @@ return(
 <div>
     <p>Contador: {contador}</p>
     <button onClick={incrementar}>+1</button>
-    <button onClick={reducir}>-1</button>
+    <button onClick={reset}>Reset</button>
 </div>
 </>
 

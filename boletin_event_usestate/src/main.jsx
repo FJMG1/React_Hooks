@@ -6,6 +6,7 @@ import Contador from './Contador.jsx'
 import CambiarTexto from './CambiarTexto.jsx'
 import MostrarOcultar from './MostrarOcultar.jsx'
 import ContadorClics from './ContadorClics.jsx'
+import LimiteContador from './LimiteContador.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <CambiarTexto/>
     <MostrarOcultar/>
     <ContadorClics/>
+    <LimiteContador/>
   </StrictMode>,
 )
